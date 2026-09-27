@@ -1,0 +1,28 @@
+{
+  "name": "into-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for backend",
+  "homepage": "https://github.com/kanipoongundran1508/INTO-TO-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/kanipoongundran1508/INTO-TO-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanipoongundran1508/INTO-TO-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "Kanipoongundran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/src/index.js",
+    "start": "node backend.src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "nodemon": "^3.1.14"
+  }
+}
